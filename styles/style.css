@@ -1,0 +1,108 @@
+/* Nav style */
+nav{
+  display: flex;
+  align-items: center;
+ justify-content: space-between;
+margin: 0px 58px;
+}
+.nav-title{
+ font-size: 34px;
+  color: #4E47FF;
+font-weight: bold;
+}
+button{
+ background-color: #4E47FF;
+ border-radius: 5px;
+ border: none;
+ padding: 15px 45px;
+ color: white;
+ gap: 10px;
+ width: 174px; 
+ height: 48px;
+} 
+.banner{
+  text-align: center;
+  font-size: 65px;
+  gap: 37px; 
+  margin: 267.5px 250px 267.5px 152px;
+}
+.All{
+  background-image: url('../B12A01-landing-launchpad/Assets/Hero-bg.png');
+ 
+}
+.action{
+margin: 141px 111px;
+  align-items: center;
+ justify-content: space-between;
+ font-size: xx-large;
+padding-top: 63px;
+padding-bottom: 63px;
+padding-right: 623px;
+}
+.color{
+  color: #0000005a;
+}
+.mini{
+  border-radius: 48px;
+  margin-right: 159px;
+}
+.live{
+  width: 300px; 
+ height: 48px;
+}
+.stats-section {
+  background: #eef0ff;
+  border-radius: 12px;
+  padding: 40px 20px;
+  text-align: center;
+  
+   margin: 125px 150px 125px 150px;
+     
+  justify-content: space-evenly;
+  gap: 20px;
+}
+
+.stats-section h2 {
+  margin-bottom: 24px;
+  font-size: 3rem;
+  color: #333;
+}
+
+.stats-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.stat {
+  flex: 1;
+  min-width: 120px;
+}
+
+.value {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #5a4ff3;
+}
+
+.label {
+  display: block;
+  margin-top: 8px;
+  font-size: 0.875rem;
+  color: #666;
+}
+
+/* Responsive support */
+@media(max-width:600px) {
+  .stats-container {
+    flex-direction: column;
+    gap: 16px;
+  }
+}
+.value{
+  font-size: 6em;
+}
+.label{
+  font-size: 2em;
+}
