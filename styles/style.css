@@ -243,6 +243,12 @@ padding: 50px 20px;
   color: #4f46e5;
   margin-bottom: 10px;
 }
+.tagline {
+  color: #555;
+  font-size: 30px;
+  max-width: 600px;
+  margin: 0 auto 20px;
+}
 
 
 
