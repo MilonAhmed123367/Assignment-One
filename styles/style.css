@@ -30,6 +30,9 @@ button{
   background-image: url('../B12A01-landing-launchpad/Assets/Hero-bg.png');
  
 }
+.All h2 {
+  font-size: 2em;
+}
 .action{
 margin: 141px 111px;
   align-items: center;
@@ -105,4 +108,77 @@ padding-right: 623px;
 }
 .label{
   font-size: 2em;
+}
+.title1{
+  text-align: center;
+  font-size: 4em;
+}
+
+
+.testimonial-section {
+  text-align: center;
+padding: 50px 20px;
+}
+
+.testimonial-section h2 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 40px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: white;
+  border-radius: 10px;
+  padding: 100px;
+  width: 300px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.197);
+  text-align: left;
+}
+
+.stars {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 10px;
+}
+
+.stars img {
+  width: 25px;
+  height: 25px;
+}
+
+.card h1 {
+  font-size: 2em;
+  margin: 10px 0 5px;
+}
+
+.card p {
+  font-size: 18px;
+  color: #555;
+}
+
+.reviewer {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  color: #555;
+}
+
+.reviewer img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+  
+}
+
+.testimonial-section h2{
+  text-align: center;
+  font-size: 5em;
 }
